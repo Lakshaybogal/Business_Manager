@@ -1,0 +1,21 @@
+{
+    "name": "businessmanager_backend",
+    "module": "dist/index.ts",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Backend for Business Manager",
+    "scripts": {
+        "dev": "bun --hot src/index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5.0.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.21",
+        "express": "^4.19.2"
+    }
+}
